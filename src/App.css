@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.counter button {
+  font-size: 24px;
+  padding: 10px 20px;
+}
+
+.counter span {
+  font-size: 36px;
+  margin: 0 20px;
+}
+
+button {
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
+/* ...existing styles... */
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-out;
+}
+
+/* ...existing styles... */
+
+.button-enter {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.button-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms ease-in, transform 300ms ease-in;
+}
+
+.button-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.button-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 300ms ease-out, transform 300ms ease-out;
+}
